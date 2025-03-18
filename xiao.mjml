@@ -84,7 +84,6 @@
     
 
 
-
     <mj-section padding="0">
       <mj-column>
         <mj-divider border-width="1px" border-style="dashed" />
@@ -94,7 +93,7 @@
       </mj-column>
     </mj-section>
     <!-- products -->
-    <mj-wrapper padding="10px 20px"> <!--容器--><!--容器开始-->
+    <mj-wrapper padding="10px 20px"> <!--容器--><!--容器开始--> 1
       <mj-section border-radius="10px" background-color="rgb(180, 151, 248)"><!--容器颜色在这里改-->
         <mj-column>
           <mj-image fluid-on-mobile="true" border-radius="10px" href="www.extremerate.com" src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/image.jpeg" alt="product 1" />
