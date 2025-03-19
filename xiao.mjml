@@ -2,7 +2,7 @@
   <mj-head>
     <mj-font name="Geist" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" />
     <mj-attributes>
-      <mj-all font-family="Geist" color="black" />
+      <mj-all font-family="Geist,'noto sans', sans-serif color="black" />
     </mj-attributes>
     <mj-style>
       p,
