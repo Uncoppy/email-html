@@ -2,7 +2,7 @@
   <mj-head>
     <mj-font name="Geist" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" />
     <mj-attributes>
-      <mj-all font-family="Geist,'noto sans', sans-serif color="black" />
+      <mj-all font-family="Geist,'noto sans', sans-serif" color=" black" />
     </mj-attributes>
     <mj-style>
       p,
@@ -40,10 +40,7 @@
     <!-- banner -->
     <mj-section padding="0">
       <mj-column>
-        <mj-image padding="20px" 
-        src="https://eurrdgq.stripocdn.email/content/guids/bannerImgGuid/images/image17418624925697672.png" 
-        alt="exr logo" 
-        border-radius="8px" />
+        <mj-image padding="20px" src="https://eurrdgq.stripocdn.email/content/guids/bannerImgGuid/images/image17418624925697672.png" alt="exr logo" border-radius="8px" />
       </mj-column>
     </mj-section>
     <!-- 正文 -->
@@ -81,7 +78,7 @@
       </mj-column>
     </mj-section>
 
-    
+
 
 
     <mj-section padding="0">
@@ -114,25 +111,25 @@
       </mj-section>
     </mj-wrapper> <!--容器结束-->
     <mj-wrapper padding="10px 20px"> <!--容器--><!--容器开始-->
-        <mj-section border-radius="8px" background-color="rgb(180, 151, 248)"><!--容器颜色在这里改-->
-          <mj-column>
-            <mj-image fluid-on-mobile="true" border-radius="10px" href="www.extremerate.com" src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/image.jpeg" alt="product 1" />
-          </mj-column>
-          <mj-column>
-            <mj-text>
-              <div class="product-name">Xbox Elite Controller Button Attachment</div>
-              <ul>
-                <li>Made of premium Aluminum</li>
-                <li>Different color options to match the controller</li>
-                <li>Redesigned ergonomic rear button shape </li>
-              </ul>
-            </mj-text>
-            <mj-button background-color="black" color="white" href="https://extremerate.com/collections/xbox-one-elite-buttons" width="150px" border-radius="20px">
-              Offcial link
-            </mj-button>
-          </mj-column>
-        </mj-section>
-      </mj-wrapper> <!--容器结束-->v
+      <mj-section border-radius="8px" background-color="rgb(180, 151, 248)"><!--容器颜色在这里改-->
+        <mj-column>
+          <mj-image fluid-on-mobile="true" border-radius="10px" href="www.extremerate.com" src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/image.jpeg" alt="product 1" />
+        </mj-column>
+        <mj-column>
+          <mj-text>
+            <div class="product-name">Xbox Elite Controller Button Attachment</div>
+            <ul>
+              <li>Made of premium Aluminum</li>
+              <li>Different color options to match the controller</li>
+              <li>Redesigned ergonomic rear button shape </li>
+            </ul>
+          </mj-text>
+          <mj-button background-color="black" color="white" href="https://extremerate.com/collections/xbox-one-elite-buttons" width="150px" border-radius="20px">
+            Offcial link
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper> <!--容器结束-->v
 
     <mj-wrapper padding="10px 20px">
       <mj-section border-radius="10px" background-color="white"> <!--容器颜色2 在这里改-->
