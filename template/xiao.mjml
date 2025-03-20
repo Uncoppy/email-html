@@ -142,7 +142,7 @@
                       border-radius="10px" />
                 </mj-column>
                 <mj-column width="55%">
-                    <mj-text padding="10px 10px 0 10px">
+                    <mj-text padding="50px 10px 0 10px">
                         <div class="product-name">PS5 Controller Shell</div>
                         <ul>
                             <li>Customizable with different patterns</li>
@@ -151,6 +151,8 @@
                         </ul>
 
                     </mj-text>
+                    <mj-spacer height="30px"/> 
+                    <!-- 调整spacer高度 -->
                     <mj-social icon-size="30px" padding="0 20px">
                         <!-- amazon
                       因为图标有点大特意缩小了 -->
