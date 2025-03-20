@@ -44,7 +44,7 @@
       </mj-column>
     </mj-section>
     <!-- 正文 -->
-    <mj-section padding="10px 20px">
+    <mj-section padding="10px 20px 0px 20px">
       <mj-column border-radius="10px" background-color="white"><!--正文(颜色)-->
         <mj-text>
           <p class="greeting">Hi friend! ✨</p>
@@ -83,7 +83,7 @@
 
     <mj-section padding="0">
       <mj-column>
-        <mj-divider border-width="1px" border-style="dashed" padding-bottom="0" />
+        
         <mj-text align="center" padding="0" font-weight="600" font-style="italic">
           <p>Below are the to product that may catch your attention👇</p>
         </mj-text>
