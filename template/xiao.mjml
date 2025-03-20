@@ -97,13 +97,13 @@
         <mj-wrapper padding="0px 20px 10px 20px">
             <mj-section padding="0" border-radius="10px"
               background-color="rgb(180, 151, 248)"><!--容器颜色在这里改-->
-                <mj-column width="45%">
+                <mj-column width="45%" vertical-align="middle"  >
                     <mj-image padding="10px" fluid-on-mobile="true" border-radius="10px"
                       href="www.extremerate.com"
                       src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/image.jpeg"
                       alt="product 1" />
                 </mj-column>
-                <mj-column width="55%">
+                <mj-column width="55%" vertical-align="middle">
                     <mj-text padding="10px 10px 0 10px">
                         <div class="product-name">Xbox Elite Controller Button Attachment</div>
                         <ul>
@@ -136,13 +136,13 @@
         <mj-wrapper padding="0px 20px 10px 20px">
             <mj-section border-radius="10px" background-color="white" padding="0"> <!--容器颜色2 在这里改-->
 
-                <mj-column width="45%">
+                <mj-column width="45%" vertical-align="middle"  >
                     <mj-image padding="10px" fluid-on-mobile="true"
                       src="https://files.catbox.moe/b7cvfy.jpg" alt="product 2"
                       border-radius="10px" />
                 </mj-column>
-                <mj-column width="55%">
-                    <mj-text padding="50px 10px 0 10px">
+                <mj-column width="55%" vertical-align="middle"  >
+                    <mj-text padding="10px 10px 0 10px">
                         <div class="product-name">PS5 Controller Shell</div>
                         <ul>
                             <li>Customizable with different patterns</li>
@@ -151,8 +151,6 @@
                         </ul>
 
                     </mj-text>
-                    <mj-spacer height="30px"/> 
-                    <!-- 调整spacer高度 -->
                     <mj-social icon-size="30px" padding="0 20px">
                         <!-- amazon
                       因为图标有点大特意缩小了 -->
