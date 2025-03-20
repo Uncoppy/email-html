@@ -113,7 +113,7 @@
                         </ul>
                     </mj-text>
                     <!-- icon开始 -->
-                    <mj-social icon-size="30px" padding="0 20px" align="right">
+                    <mj-social icon-size="30px" padding="0 20px">
                         <!-- amazon
                         因为图标有点大特意缩小了 -->
                         <mj-social-element icon-size="25px" href="#"
@@ -151,7 +151,7 @@
                         </ul>
 
                     </mj-text>
-                    <mj-social icon-size="30px" padding="0 20px " align="right">
+                    <mj-social icon-size="30px" padding="0 20px">
                         <!-- amazon
                       因为图标有点大特意缩小了 -->
                         <mj-social-element icon-size="25px" href="#"
@@ -159,11 +159,11 @@
 
                         <!-- shopify -->
                         <mj-social-element href="#"
-                          src="https://files.catbox.moe/vrsqja.png"></mj-social-element>
+                          src="https://files.catbox.moe/vrsqja.png" ></mj-social-element>
 
                         <!-- alipress -->
                         <mj-social-element href="#"
-                          src="https://files.catbox.moe/mvfhzb.png"></mj-social-element>
+                          src="https://files.catbox.moe/mvfhzb.png" ></mj-social-element>
                     </mj-social>
                 </mj-column>
 
