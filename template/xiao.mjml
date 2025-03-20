@@ -40,7 +40,7 @@
     <!-- banner -->
     <mj-section padding="0">
       <mj-column>
-        <mj-image padding="20px" src="https://eurrdgq.stripocdn.email/content/guids/bannerImgGuid/images/image17418624925697672.png" alt="exr logo" border-radius="8px" />
+        <mj-image padding="0 20px" src="https://eurrdgq.stripocdn.email/content/guids/bannerImgGuid/images/image17418624925697672.png" alt="exr logo" border-radius="8px" />
       </mj-column>
     </mj-section>
     <!-- 正文 -->
@@ -163,7 +163,7 @@
               <li>Easy to install</li>
               <li>Protective and anti-scratch</li>
             </ul>
-            
+
           </mj-text>
           <mj-social icon-size="30px" padding="0 20px" align="right">
             <!-- amazon
