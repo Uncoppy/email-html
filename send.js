@@ -2,6 +2,7 @@ const nodemailer = require('nodemailer');
 const fs = require('fs');
 const readline = require('readline');
 const { convert } = require('html-to-text');
+const ProgressBar = require('progress');
 
 // 创建 readline 接口
 const rl = readline.createInterface({
@@ -10,12 +11,12 @@ const rl = readline.createInterface({
 });
 
 // 读取配置文件
-const configPath = './config.json'; // 配置文件路径，可以根据需要调整
+const configPath = './config.json';
 let config;
 
 try {
   const configContent = fs.readFileSync(configPath, 'utf8');
-  config = JSON.parse(configContent); // 解析 JSON 文件
+  config = JSON.parse(configContent);
   console.log('配置文件已加载:', config);
 } catch (error) {
   console.log('无法读取配置文件:', error.message);
@@ -43,46 +44,61 @@ rl.question('请输入邮箱账号编号: ', (emailIndex) => {
   // 创建邮件发送器
   let transporter = nodemailer.createTransport(selectedEmail);
 
-  // 读取 template 文件夹中的所有 HTML 文件
-  const templateDir = 'template';
-  const templates = fs.readdirSync(templateDir).filter(file => file.endsWith('.html'));
-
-  if (templates.length === 0) {
-    console.log('模板文件夹中没有找到 HTML 文件，请添加模板后重试！');
+  // 从选中的邮箱配置中读取模板文件路径
+  const templatePath = `./template/${selectedEmail.template}`;
+  
+  // 检查模板文件是否存在
+  if (!templatePath || typeof templatePath !== 'string') {
+    console.log('配置文件中未指定有效的模板路径！');
     rl.close();
-    process.exit(1);
+    return;
   }
 
-  // 显示模板索引
-  console.log('请选择一个模板文件:');
-  templates.forEach((file, index) => {
-    console.log(`${index + 1}: ${file}`);
+  let htmlContent;
+  try {
+    htmlContent = fs.readFileSync(templatePath, 'utf8');
+  } catch (error) {
+    console.log('无法读取模板文件:', error.message);
+    rl.close();
+    return;
+  }
+
+  // 将 HTML 转换为纯文本
+  const textContent = convert(htmlContent, {
+    wordwrap: 130,
   });
 
-  rl.question('请输入模板编号: ', (templateIndex) => {
-    const index = parseInt(templateIndex, 10) - 1;
+  rl.question('请输入收件人邮箱地址（多个邮箱用逗号分隔）: ', (recipientsInput) => {
+    const recipients = recipientsInput.split(',')
+      .map(email => email.trim())
+      .filter(email => /\S+@\S+\.\S+/.test(email));
 
-    if (isNaN(index) || index < 0 || index >= templates.length) {
-      console.log('无效的编号，请重新运行脚本并输入正确的编号！');
+    if (recipients.length === 0) {
+      console.log('请输入至少一个有效的邮箱地址！');
       rl.close();
       return;
     }
 
-    const selectedTemplate = templates[index];
-    const htmlContent = fs.readFileSync(`${templateDir}/${selectedTemplate}`, 'utf8');
-
-    // 将 HTML 转换为纯文本
-    const textContent = convert(htmlContent, {
-      wordwrap: 130,
+    // 创建进度条
+    const bar = new ProgressBar('发送进度 [:bar] :percent :current/:total :etas', {
+      total: recipients.length,
+      width: 40,
+      complete: '=',
+      incomplete: ' ',
     });
 
-    rl.question('请输入收件人邮箱地址: ', (recipient) => {
-      if (!recipient || !/\S+@\S+\.\S+/.test(recipient)) {
-        console.log('请输入有效的邮箱地址！');
+    let completed = 0;
+
+    // 递归函数用于逐一发送邮件
+    const sendEmail = (recipientIndex) => {
+      if (recipientIndex >= recipients.length) {
+        console.log('\n所有邮件发送完成！');
+        console.log(`使用账号: ${selectedEmail.auth.user}`);
         rl.close();
         return;
       }
 
+      const recipient = recipients[recipientIndex];
       let mailOptions = {
         from: selectedEmail.from,
         to: recipient,
@@ -93,13 +109,17 @@ rl.question('请输入邮箱账号编号: ', (emailIndex) => {
 
       transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
-          console.log('邮件发送失败:', error);
+          console.log(`\n发送给 ${recipient} 失败: ${error.message}`);
         } else {
-          console.log('邮件已发送:', info.messageId);
-          console.log(`使用账号: ${selectedEmail.auth.user}`);
+          completed++;
+          bar.tick();
         }
-        rl.close();
+        // 无论成功失败，继续发送下一封
+        sendEmail(recipientIndex + 1);
       });
-    });
+    };
+
+    // 开始发送第一封邮件
+    sendEmail(0);
   });
 });
