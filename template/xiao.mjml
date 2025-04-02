@@ -10,7 +10,7 @@
       p,
       li {
       font-size: 14.8px;
-      line-height:1.4;
+      line-height:1.6;
       font-weight: 600;
       }
 
