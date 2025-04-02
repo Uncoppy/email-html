@@ -2,6 +2,8 @@
   <mj-head>
     <mj-font name="Geist" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" />
     <mj-attributes>
+      <mj-class name="main" color="black" />
+      <mj-class name="card" color="black" />
       <mj-all font-family="Geist,'noto sans', sans-serif" color=" rgb(27, 39, 39)" />
     </mj-attributes>
     <mj-style>
@@ -48,7 +50,7 @@
     <!-- 正文 -->
     <mj-section padding="10px 20px 0px 20px">
       <mj-column border-radius="10px" background-color="rgb(240, 248, 250)"><!--正文(颜色)-->
-        <mj-text>
+        <mj-text mj-class="main">
           <p class="greeting">Hello friend! ✨</p>
           <p>Hope you're doing great! </p>
           <p>I'm Shawn from <strong>eXtremeRate</strong>, we are a company that makes
@@ -91,7 +93,7 @@
           <mj-image padding="10px" fluid-on-mobile="true" border-radius="10px" href="www.extremerate.com" src="https://files.catbox.moe/6047iv.jpg" alt="product 1" />
         </mj-column>
         <mj-column width="50%" vertical-align="middle">
-          <mj-text padding="10px 10px 0 0px">
+          <mj-text padding="10px 10px 0 0px" mj-class="card">
             <div class="product-name">Dualsense Edge Rear Paddle PCB Board</div>
             <ul>
               <li>Design for Replacement</li>
@@ -101,8 +103,7 @@
           </mj-text>
           <!-- icon开始 -->
           <mj-social icon-size="30px" padding="0 10px">
-            <!-- amazon
-                        因为图标有点大特意缩小了 -->
+            <!-- amazon 因为图标有点大特意缩小了 -->
             <mj-social-element icon-size="25px" href="#" src="https://files.catbox.moe/dmrn6s.png"></mj-social-element>
 
             <!-- shopify -->
@@ -124,7 +125,7 @@
           <mj-image padding="5px" fluid-on-mobile="true" src="https://files.catbox.moe/b7cvfy.jpg" alt="product 2" border-radius="10px" />
         </mj-column>
         <mj-column width="50%" vertical-align="middle">
-          <mj-text padding="10px 10px 0 0px">
+          <mj-text padding="10px 10px 0 0px" mj-class="card">
             <div class="product-name">DIY Switch Pro Controller </div>
             <ul>
               <li>Various Custom Options</li>
