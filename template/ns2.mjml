@@ -2,7 +2,7 @@
   <mj-head>
     <mj-font name="Geist" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" />
     <mj-attributes>
-      <mj-all font-family="Geist,'noto sans', sans-serif" color=" rgb(47, 64, 85)" />
+      <mj-all font-family="Geist,'noto sans', sans-serif" color=" rgb(220, 232, 247)"font-weight="600"/>
     </mj-attributes>
     <mj-style>
       h2 {
@@ -17,14 +17,14 @@
       }
 
       h3 {
-        color: rgb(46, 33, 33);
+        color: rgb(247, 247, 247);
       }
 
       p,
       li {
         font-size: 16px;
         line-height: 1.5;
-        ； color: white;
+        ； color: rgb(138, 37, 37);
       }
 
       li {
@@ -38,7 +38,7 @@
 
       .bullet {
         font-weight: 800;
-        color: #2762ee;
+        color: #ff9d9d;
       }
 
       div.product-name {
@@ -55,19 +55,20 @@
       }
 
       p.greeting2 {
-        color: rgb(76, 41, 202);
+        color: rgb(159, 132, 255);
         font-weight: 800;
         font-size: 18px;
         text-align: center;
       }
 
       p.right {
-        color: rgb(58, 50, 50);
+        color: rgb(238, 225, 225);
+        font-size: 11px;
         margin: 0;
       }
     </mj-style>
   </mj-head>
-  <mj-body background-color="rgb(209, 193, 223)"><!--全部的颜色-->
+  <mj-body background-color="rgba(15, 13, 14, 0.77)"><!--全部的颜色-->
     <mj-section padding="10px">
       <mj-column>
         <mj-text>
@@ -83,7 +84,7 @@
       <mj-column border-radius="10px"><!--正文(颜色)-->
         <mj-text>
           <p class="greeting">✨Nintendo Switch 2✨</p>
-          <p class="greeting2"> Modding Project Teaser </p>
+          <p class="greeting2"> Modding Project Trailer </p>
           <p>Hope you're doing great! </p>
           <p>I'm Shawn from <strong>eXtremeRate</strong>, we are a company that makes
             <strong>DIY
