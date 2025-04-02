@@ -28,7 +28,7 @@
 
       div.product-name {
       font-size: 15px;
-      font-weight: 800;
+      font-weight: 1000;
       color: rgb(130, 16, 236);
       }
 
