@@ -17,7 +17,6 @@
       li {
         margin-bottom: 10px;
         font-weight: 800;
-        padding-left: 5px;        /*防止在移动端列表项目太靠近左侧边框*/
       }
 
       ul {
@@ -33,7 +32,6 @@
         font-size: 15px;
         font-weight: 1000;
         color: rgb(130, 16, 236);
-        padding-left: 5px;
       }
 
       ul.term {
@@ -58,7 +56,7 @@
     <!-- 正文 -->
     <mj-section padding="10px 20px 0px 20px">
       <mj-column border-radius="10px" background-color="rgb(240, 248, 250)"><!--正文(颜色)-->
-        <mj-text mj-class="main">
+        <mj-text mj-class="main" padding="10px">
           <p class="greeting">Hello friend! ✨</p>
           <p>Hope you're doing great! </p>
           <p>I’m Shawn from eXtremeRate, a company passionate about creating DIY custom kits that
@@ -118,7 +116,7 @@
             src="https://files.catbox.moe/6047iv.jpg" alt="product 1" />
         </mj-column>
         <mj-column width="50%" vertical-align="middle">
-          <mj-text padding="10px 10px 0 0px" mj-class="card">
+          <mj-text padding="10px 10px 0 10px" mj-class="card">
             <div class="product-name">Dualsense Edge Rear Paddle PCB Board</div>
             <ul>
               <li>Design for lasting long</li>
@@ -142,7 +140,7 @@
             src="https://files.catbox.moe/mzsq7b.jpg" alt="product 2" border-radius="10px" />
         </mj-column>
         <mj-column width="50%" vertical-align="middle">
-          <mj-text padding="10px 10px 0 0px" mj-class="card">
+          <mj-text padding="10px 10px 0 10px" mj-class="card">
             <div class="product-name">Dualsense edge magnetic module </div>
             <ul>
               <li>Premuim material and quality </li>
