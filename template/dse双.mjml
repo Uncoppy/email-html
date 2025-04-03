@@ -1,0 +1,165 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Geist" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" />
+    <mj-attributes>
+      <mj-class name="main" color="black" />
+      <mj-class name="card" color="black" />
+      <mj-all font-family="Geist,'noto sans', sans-serif" color=" rgb(27, 39, 39)" />
+    </mj-attributes>
+    <mj-style>
+      p,
+      li {
+      font-size: 13.8px;
+      line-height:1.6;
+      font-weight: 600;
+      }
+
+      li {
+      margin-bottom: px;
+      }
+
+      ul {
+      padding-left: 0;
+      list-style: " > " inside;
+      }
+
+      .bullet {
+      font-weight: 1000;
+      color: #5c6781;
+      }
+
+      div.product-name {
+      font-size: 15px;
+      font-weight: 1000;
+      color: rgb(130, 16, 236);
+      }
+
+      p.term {
+      color: rgb(50, 116, 214);
+      font-weight: 1000;
+
+      }
+
+      p.greeting {
+      color: rgb(130, 16, 236);
+      font-weight: 1000;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="rgb(174, 174, 230)"><!--全部的颜色-->
+    <!-- banner -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image padding="0 20px" src="https://eurrdgq.stripocdn.email/content/guids/bannerImgGuid/images/image17418624925697672.png" alt="exr logo" border-radius="8px" />
+      </mj-column>
+    </mj-section>
+    <!-- 正文 -->
+    <mj-section padding="10px 20px 0px 20px">
+      <mj-column border-radius="10px" background-color="rgb(240, 248, 250)"><!--正文(颜色)-->
+        <mj-text mj-class="main">
+          <p class="greeting">Hello friend! ✨</p>
+          <p>Hope you're doing great! </p>
+          <p>I’m Shawn from eXtremeRate, a company passionate about creating DIY custom kits that empower gamers to personalize and repair their gaming devices. I’ve been absolutely impressed by your profession in controller modding and repair videos!
+          </p>
+          <p>I’d love to collaborate with you on something special: we’d be thrilled for you to test our exclusive DualSense Edge repair kit. This kit features a back button circuit board with a premium, responsive switch for crisp, satisfying paddle feedback – a perfect replacement for any gamer looking to repair their controller.
+          </p>
+
+          <p>There’s a clear demand for this product: no replacement options currently exist on the market, leaving many gamers with damaged, out-of-warranty back buttons unsure where to turn. Our kit steps in to meet that need effectively. </p>
+          <p> As part of this partnership, we’d be delighted to: </p>
+          <p class="term">➡️Long-term access to free products for testing and review. </p>
+          <p class="term">➡️Free product giveaway to engage your audience</p>
+          <p class="term">➡️A 10% discount code for your viewers, plus a 10% referral commission on every sale made through your code.</p>
+
+
+          <p>Please feel free to let me know if you’re interested, and I’d be delighted to discuss further details with you!
+          </p>
+          <p>Best regards, <br />
+            Shawn
+          </p>
+
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+    <mj-section padding="0">
+      <mj-column>
+
+        <mj-text align="center" padding="0" font-weight="00" font-style="italic">
+          <p>Check out recommendations below👇</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- products -->
+    <!--容器开始-->
+    <mj-wrapper padding="0px 20px 0px 20px">
+      <mj-section padding="0" border-radius="8px" background-color="rgb(255, 255, 255)"><!--容器颜色在这里改-->
+        <mj-column width="50%" vertical-align="middle">
+          <mj-image padding="8px" fluid-on-mobile="true" border-radius="10px" href="https://extremerate.com/products/extremerate-back-paddles-replacement-switch-board-kit-for-ps5-edge-controller-custom-redesigned-lb-rb-buttons-enhancement-repair-parts-without-back-buttons" src="https://files.catbox.moe/6047iv.jpg" alt="product 1" />
+        </mj-column>
+        <mj-column width="50%" vertical-align="middle">
+          <mj-text padding="10px 10px 0 0px" mj-class="card">
+            <div class="product-name">Dualsense Edge Rear Paddle PCB Board</div>
+            <ul>
+              <li>Design for lasting long</li>
+              <li>Better switch&clickness</li>
+              <li>Easy Installation </li>
+            </ul>
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+      <!--容器结束-->
+    </mj-wrapper>
+
+    <mj-wrapper padding="10px 20px 0px 20px">
+      <mj-section border-radius="8px" background-color="rgb(255, 255, 255)" padding="0"> <!--容器颜色2 在这里改-->
+
+        <mj-column width="50%" vertical-align="middle">
+          <mj-image padding="8px" fluid-on-mobile="true" href="https://extremerate.com/products/extremerate-replacement-magnetic-module-kit-for-ps5-edge-controller-back-paddles" src="https://files.catbox.moe/mzsq7b.jpg" alt="product 2" border-radius="10px" />
+        </mj-column>
+        <mj-column width="50%" vertical-align="middle">
+          <mj-text padding="10px 10px 0 0px" mj-class="card">
+            <div class="product-name">Dualsense edge magnetic module </div>
+            <ul>
+              <li>Premuim material and quality </li>
+              <li>Highly durable and solid </li>
+              <li>Easy installation</li>
+            </ul>
+
+          </mj-text>
+
+      </mj-section>
+    </mj-wrapper>
+    <!-- footer 和社媒连接 -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" padding="0">
+          <h3> Marketing Team | eXtremeRate
+          </h3>
+        </mj-text>
+        <mj-social icon-size="30px" padding="0">
+          <!-- Youtube -->
+          <mj-social-element src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/youtubecirclelargeff0000ffffff2.png" href="https://www.youtube.com/c/ExtremeRate/videos">
+          </mj-social-element>
+          <!-- instagram -->
+          <mj-social-element src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/instagramcirclelargefe0077ffffff2.png" href="https://www.instagram.com/extremerate/">
+          </mj-social-element>
+          <!-- shopify -->
+          <mj-social-element src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/3okyvx1.png" href="extremerate.com"></mj-social-element>
+          <!-- amazon -->
+          <mj-social-element src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/2qtscgi3.png" href="https://www.amazon.com/stores/eXtremeRate/page/149F780C-685F-4D0B-ACDD-DA916415F205?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto">
+          </mj-social-element>
+          <!-- tiktok -->
+          <mj-social-element src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/tiktokcirclelarge0000ffffff1.png" href="https://www.tiktok.com/@extremerate">
+          </mj-social-element>
+        </mj-social>
+        <mj-text align="center"> © 2025 eXtremeRate. All rights reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
