@@ -3,7 +3,7 @@
     <mj-font name="Geist" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" />
     <mj-attributes>
       <mj-class name="main" color="black" />
-      <mj-class name="card" color="rgb(32, 47, 116)" />
+      <mj-class name="card" color="rgb(196, 103, 41)" />
       <mj-all font-family="Geist,'noto sans', sans-serif" color=" rgb(27, 39, 39)" />
     </mj-attributes>
     <mj-style>
@@ -20,7 +20,7 @@
 
       ul {
       padding-left: 0;
-      list-style: " > " inside;
+      list-style: " - " inside;
       }
 
       .bullet {
@@ -62,24 +62,18 @@
           <p>I'm Shawn from <strong>eXtremeRate</strong>, we are a company that provide
             <strong>DIY
               Cusmtom Kit</strong> for gamers to personalize or repair gaming
-            devices.
+            devices. 
           </p>
-          <p>I stumbled upon your channel and impressed by your content and the way you connect with the gaming community.</p>
-          <p>Our products, designed for DIY controller modding, perfectly align with your style. I would love to explore a collaboration and create something amazing together!</p>
-          <p> Here's a quick overview of what our
-            products for:</p>
+          <p>I stumbled upon your channel and impressed by your content, especially the way you connect with the gaming community.I would love to explore a collaboration and create something amazing together!</p>
+          <p>Here’s a quick peek at what we offer:</p>
           <ul>
             <li><span class="bullet">Look Makeover: </span>Custom
-              shells, buttons, RGB lighting, and
-              console covers for a vibrant,
-              personalized look.</li>
+              shells, buttons for
+              personalized build.</li>
             <li><span class="bullet">Performance
-                Upgrades: </span>Clicky buttons,
-              remappable back paddles for enhanced
-              functionality.</li>
-            <li><span class="bullet">Repair Solutions:
-              </span>Kits to fix worn-out or
-              malfunctioning parts.</li>
+                Upgrades: </span>Clicky buttons and remappable paddles for better play.</li>
+            <li><span class="bullet">Fix-It Kits:
+              </span>Solutions for worn-out or broken parts.</li>
           </ul>
 
 
@@ -109,7 +103,7 @@
     <!-- products -->
     <!--容器开始-->
     <mj-wrapper padding="0px 20px 0px 20px">
-      <mj-section padding="0" border-radius="8px" background-color="rgb(255, 255, 255)"><!--容器颜色在这里改-->
+      <mj-section padding="0" border-radius="8px" background-color="rgb(240, 248, 250)"><!--容器颜色在这里改-->
         <mj-column width="50%" vertical-align="middle">
           <mj-image padding="8px" fluid-on-mobile="true" border-radius="10px" href="www.extremerate.com" src="https://files.catbox.moe/6047iv.jpg" alt="product 1" />
         </mj-column>
@@ -140,7 +134,7 @@
     </mj-wrapper>
 
     <mj-wrapper padding="10px 20px 0px 20px">
-      <mj-section border-radius="8px" background-color="rgb(255, 255, 255)" padding="0"> <!--容器颜色2 在这里改-->
+      <mj-section border-radius="8px" background-color="rgb(240, 248, 250)" padding="0"> <!--容器颜色2 在这里改-->
 
         <mj-column width="50%" vertical-align="middle">
           <mj-image padding="5px" fluid-on-mobile="true" src="https://files.catbox.moe/b7cvfy.jpg" alt="product 2" border-radius="10px" />
