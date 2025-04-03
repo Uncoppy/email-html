@@ -2,47 +2,47 @@
   <mj-head>
     <mj-font name="Geist" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" />
     <mj-attributes>
-      <mj-class name="main" color="black"/>
+      <mj-class name="main" color="black" />
       <mj-class name="card" color="rgb(17, 12, 20)" />
       <mj-all font-family="Geist,'noto sans', sans-serif" color=" rgb(27, 39, 39)" />
     </mj-attributes>
     <mj-style>
       p,
       li {
-      font-size: 13.88px;
-      line-height:1.6;
-      font-weight: 600;
+        font-size: 13.88px;
+        line-height: 1.6;
+        font-weight: 600;
       }
 
       li {
-      margin-bottom: px;
+        margin-bottom: px;
       }
 
       ul {
-      padding-left: 0;
-      list-style: " - " inside;
+        padding-left: 0;
+        list-style: " - " inside;
       }
 
       .bullet {
-      font-weight: 1000;
-      color: #1b5efa;
+        font-weight: 1000;
+        color: #1b5efa;
       }
 
       div.product-name {
-      font-size: 15px;
-      font-weight: 1000;
-      color: rgb(130, 16, 236);
+        font-size: 15px;
+        font-weight: 1000;
+        color: rgb(130, 16, 236);
       }
 
       p.term {
-      color: rgb(23, 49, 104);
-      font-weight: 1000;
+        color: rgb(23, 49, 104);
+        font-weight: 1000;
 
       }
 
       p.greeting {
-      color: rgb(130, 16, 236);
-      font-weight: 1000;
+        color: rgb(130, 16, 236);
+        font-weight: 1000;
       }
     </mj-style>
   </mj-head>
@@ -62,10 +62,10 @@
           <p>I'm Shawn from <strong>eXtremeRate</strong>, we are a company that provide
             <strong>DIY
               Cusmtom Kit</strong> for gamers to personalize or repair gaming
-            devices. 
+            devices.
           </p>
           <p>I stumbled upon your channel and impressed by your content, especially the way you connect with the gaming community.I would love to explore a collaboration and create something amazing together!</p>
-          <p >Here’s a quick peek at what we offer:</p>
+          <p>Here’s a quick peek at what we offer:</p>
           <ul>
             <li><span class="bullet">Look Makeover: </span>Custom
               shells, buttons, RGB for
@@ -75,7 +75,7 @@
             <li><span class="bullet">Fix-It Kits:
               </span>Solutions for worn-out or broken parts.</li>
           </ul>
-          <p> For you I would recommend our cutsom kits for dualsense edge controller. You can customize it by swapping some parts and redesign it out of your imagination.🎮 
+          <p> For you I would recommend our cutsom kits for dualsense edge controller. You can customize it by swapping some parts and redesign it out of your imagination.🎮
 
 
           <p>Please feel free to let me know if you’re interested, and I’d be delighted to discuss further details with you!🤝
@@ -105,7 +105,7 @@
     <mj-wrapper padding="0px 20px 0px 20px">
       <mj-section padding="0" border-radius="8px" background-color="rgb(240, 248, 250)"><!--容器颜色在这里改-->
         <mj-column width="50%" vertical-align="middle">
-          <mj-image padding="8px" fluid-on-mobile="true" border-radius="10px" href="www.extremerate.com" src="https://files.catbox.moe/u60lhm.jpg" alt="product 1" />
+          <mj-image padding="8px" fluid-on-mobile="true" border-radius="10px" href="https://extremerate.com/collections/replacement-top-bottom-decorative-trim-shell-compatible-with-ps5-edge-controller" src="https://files.catbox.moe/u60lhm.jpg" alt="product 1" />
         </mj-column>
         <mj-column width="50%" vertical-align="middle">
           <mj-text padding="10px 10px 0 0" mj-class="card">
@@ -113,20 +113,12 @@
             <ul>
               <li>No rubber peeling issue</li>
               <li>Different color to match the style</li>
+
               <li>Easy installation </li>
             </ul>
           </mj-text>
           <!-- icon开始 -->
-          <mj-social icon-size="30px" padding="0 10px" >
-            <!-- amazon 因为图标有点大特意缩小了 -->
-            <mj-social-element icon-size="25px" href="#" src="https://files.catbox.moe/dmrn6s.png"></mj-social-element>
 
-            <!-- shopify -->
-            <mj-social-element  href="#" src="https://files.catbox.moe/vrsqja.png"></mj-social-element>
-
-            <!-- alipress -->
-            <mj-social-element href="#" src="https://files.catbox.moe/mvfhzb.png"></mj-social-element>
-          </mj-social>
           <!-- icon结束 -->
         </mj-column>
       </mj-section>
@@ -137,29 +129,21 @@
       <mj-section border-radius="8px" background-color="rgb(240, 248, 250)" padding="0"> <!--容器颜色2 在这里改-->
 
         <mj-column width="50%" vertical-align="middle">
-          <mj-image padding="5px" fluid-on-mobile="true" href="https://extremerate.com/products/extremerate-back-paddles-replacement-switch-board-kit-for-ps5-edge-controller-custom-redesigned-lb-rb-buttons-enhancement-repair-parts-without-back-buttons"  src="https://files.catbox.moe/6047iv.jpg" alt="product 2" border-radius="10px" />
+          <mj-image padding="5px" fluid-on-mobile="true" href="https://extremerate.com/products/extremerate-back-paddles-replacement-switch-board-kit-for-ps5-edge-controller-custom-redesigned-lb-rb-buttons-enhancement-repair-parts-without-back-buttons" src="https://files.catbox.moe/6047iv.jpg" alt="product 2" border-radius="10px" />
         </mj-column>
         <mj-column width="50%" vertical-align="middle">
           <mj-text padding="10px 10px 0 0" mj-class="card">
             <div class="product-name">Dualsense Edge Rear Paddle PCB Board </div>
             <ul>
+              <li>First replacement on market </li>
               <li>Design for lasting long</li>
               <li>Better switch&clickness</li>
+
               <li>Easy Installation </li>
             </ul>
 
           </mj-text>
-          <mj-social icon-size="30px" padding="0 10px">
-            <!-- amazon
-                      因为图标有点大特意缩小了 -->
-            <mj-social-element icon-size="25px" href="#" src="https://files.catbox.moe/dmrn6s.png"></mj-social-element>
 
-            <!-- shopify -->
-            <mj-social-element href="#" src="https://files.catbox.moe/vrsqja.png"></mj-social-element>
-
-            <!-- alipress -->
-            <mj-social-element href="#" src="https://files.catbox.moe/mvfhzb.png"></mj-social-element>
-          </mj-social>
         </mj-column>
 
       </mj-section>
