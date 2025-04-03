@@ -1,6 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-font name="Geist" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" />
+    <mj-font name="Geist"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" />
     <mj-attributes>
       <mj-class name="main" color="black" />
       <mj-class name="card" color="black" />
@@ -9,40 +10,39 @@
     <mj-style>
       p,
       li {
-      font-size: 13.8px;
-      line-height:1.6;
-      font-weight: 600;
+        font-size: 13.8px;
+        line-height: 1.6;
       }
 
       li {
-      margin-bottom: px;
+        margin-bottom: 10px;
+        font-weight: 800;
+        padding-left: 5px;        /*防止在移动端列表项目太靠近左侧边框*/
       }
 
       ul {
-      padding-left: 0;
-      list-style: " > " inside;
+        padding-left: 0;
+        list-style: "➡️" inside;
       }
 
       .bullet {
-      font-weight: 1000;
-      color: #5c6781;
+        color: #5c6781;
       }
 
       div.product-name {
-      font-size: 15px;
-      font-weight: 1000;
-      color: rgb(130, 16, 236);
+        font-size: 15px;
+        font-weight: 1000;
+        color: rgb(130, 16, 236);
+        padding-left: 5px;
       }
 
-      p.term {
-      color: rgb(50, 116, 214);
-      font-weight: 1000;
-
+      ul.term {
+        color: rgb(50, 116, 214);
       }
 
       p.greeting {
-      color: rgb(130, 16, 236);
-      font-weight: 1000;
+        color: rgb(130, 16, 236);
+        font-weight: 1000;
       }
     </mj-style>
   </mj-head>
@@ -50,7 +50,9 @@
     <!-- banner -->
     <mj-section padding="0">
       <mj-column>
-        <mj-image padding="0 20px" src="https://eurrdgq.stripocdn.email/content/guids/bannerImgGuid/images/image17418624925697672.png" alt="exr logo" border-radius="8px" />
+        <mj-image padding="0 20px"
+          src="https://eurrdgq.stripocdn.email/content/guids/bannerImgGuid/images/image17418624925697672.png"
+          alt="exr logo" border-radius="8px" />
       </mj-column>
     </mj-section>
     <!-- 正文 -->
@@ -59,19 +61,31 @@
         <mj-text mj-class="main">
           <p class="greeting">Hello friend! ✨</p>
           <p>Hope you're doing great! </p>
-          <p>I’m Shawn from eXtremeRate, a company passionate about creating DIY custom kits that empower gamers to personalize and repair their gaming devices. I’ve been absolutely impressed by your profession in controller modding and repair videos!
+          <p>I’m Shawn from eXtremeRate, a company passionate about creating DIY custom kits that
+            empower gamers to personalize and repair their gaming devices. I’ve been absolutely
+            impressed by your profession in controller modding and repair videos!
           </p>
-          <p>I’d love to collaborate with you on something special: we’d be thrilled for you to test our exclusive DualSense Edge repair kit. This kit features a back button circuit board with a premium, responsive switch for crisp, satisfying paddle feedback – a perfect replacement for any gamer looking to repair their controller.
+          <p>I’d love to collaborate with you on something special: we’d be thrilled for you to test
+            our exclusive DualSense Edge repair kit. This kit features a back button circuit board
+            with a premium, responsive switch for crisp, satisfying paddle feedback – a perfect
+            replacement for any gamer looking to repair their controller.
           </p>
 
-          <p>There’s a clear demand for this product: no replacement options currently exist on the market, leaving many gamers with damaged, out-of-warranty back buttons unsure where to turn. Our kit steps in to meet that need effectively. </p>
+          <p>There’s a clear demand for this product: no replacement options currently exist on the
+            market, leaving many gamers with damaged, out-of-warranty back buttons unsure where to
+            turn. Our kit steps in to meet that need effectively. </p>
           <p> As part of this partnership, we’d be delighted to: </p>
-          <p class="term">➡️Long-term access to free products for testing and review. </p>
-          <p class="term">➡️Free product giveaway to engage your audience</p>
-          <p class="term">➡️A 10% discount code for your viewers, plus a 10% referral commission on every sale made through your code.</p>
 
-
-          <p>Please feel free to let me know if you’re interested, and I’d be delighted to discuss further details with you!
+          <ul class="term">
+            <li>
+              Long-term access to free products for testing and review.
+            </li>
+            <li>Free product giveaway to engage your audience</li>
+            <li>A 10% discount code for your viewers, plus a 10% referral commission on
+              every sale made through your code</li>
+          </ul>
+          <p>Please feel free to let me know if you’re interested, and I’d be delighted to discuss
+            further details with you!
           </p>
           <p>Best regards, <br />
             Shawn
@@ -96,9 +110,12 @@
     <!-- products -->
     <!--容器开始-->
     <mj-wrapper padding="0px 20px 0px 20px">
-      <mj-section padding="0" border-radius="8px" background-color="rgb(255, 255, 255)"><!--容器颜色在这里改-->
+      <mj-section padding="0" border-radius="8px"
+        background-color="rgb(255, 255, 255)"><!--容器颜色在这里改-->
         <mj-column width="50%" vertical-align="middle">
-          <mj-image padding="8px" fluid-on-mobile="true" border-radius="10px" href="https://extremerate.com/products/extremerate-back-paddles-replacement-switch-board-kit-for-ps5-edge-controller-custom-redesigned-lb-rb-buttons-enhancement-repair-parts-without-back-buttons" src="https://files.catbox.moe/6047iv.jpg" alt="product 1" />
+          <mj-image padding="8px" fluid-on-mobile="true" border-radius="10px"
+            href="https://extremerate.com/products/extremerate-back-paddles-replacement-switch-board-kit-for-ps5-edge-controller-custom-redesigned-lb-rb-buttons-enhancement-repair-parts-without-back-buttons"
+            src="https://files.catbox.moe/6047iv.jpg" alt="product 1" />
         </mj-column>
         <mj-column width="50%" vertical-align="middle">
           <mj-text padding="10px 10px 0 0px" mj-class="card">
@@ -116,10 +133,13 @@
     </mj-wrapper>
 
     <mj-wrapper padding="10px 20px 0px 20px">
-      <mj-section border-radius="8px" background-color="rgb(255, 255, 255)" padding="0"> <!--容器颜色2 在这里改-->
+      <mj-section border-radius="8px" background-color="rgb(255, 255, 255)" padding="0">
+        <!--容器颜色2 在这里改-->
 
         <mj-column width="50%" vertical-align="middle">
-          <mj-image padding="8px" fluid-on-mobile="true" href="https://extremerate.com/products/extremerate-replacement-magnetic-module-kit-for-ps5-edge-controller-back-paddles" src="https://files.catbox.moe/mzsq7b.jpg" alt="product 2" border-radius="10px" />
+          <mj-image padding="8px" fluid-on-mobile="true"
+            href="https://extremerate.com/products/extremerate-replacement-magnetic-module-kit-for-ps5-edge-controller-back-paddles"
+            src="https://files.catbox.moe/mzsq7b.jpg" alt="product 2" border-radius="10px" />
         </mj-column>
         <mj-column width="50%" vertical-align="middle">
           <mj-text padding="10px 10px 0 0px" mj-class="card">
@@ -143,18 +163,28 @@
         </mj-text>
         <mj-social icon-size="30px" padding="0">
           <!-- Youtube -->
-          <mj-social-element src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/youtubecirclelargeff0000ffffff2.png" href="https://www.youtube.com/c/ExtremeRate/videos">
+          <mj-social-element
+            src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/youtubecirclelargeff0000ffffff2.png"
+            href="https://www.youtube.com/c/ExtremeRate/videos">
           </mj-social-element>
           <!-- instagram -->
-          <mj-social-element src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/instagramcirclelargefe0077ffffff2.png" href="https://www.instagram.com/extremerate/">
+          <mj-social-element
+            src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/instagramcirclelargefe0077ffffff2.png"
+            href="https://www.instagram.com/extremerate/">
           </mj-social-element>
           <!-- shopify -->
-          <mj-social-element src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/3okyvx1.png" href="extremerate.com"></mj-social-element>
+          <mj-social-element
+            src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/3okyvx1.png"
+            href="extremerate.com"></mj-social-element>
           <!-- amazon -->
-          <mj-social-element src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/2qtscgi3.png" href="https://www.amazon.com/stores/eXtremeRate/page/149F780C-685F-4D0B-ACDD-DA916415F205?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto">
+          <mj-social-element
+            src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/2qtscgi3.png"
+            href="https://www.amazon.com/stores/eXtremeRate/page/149F780C-685F-4D0B-ACDD-DA916415F205?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto">
           </mj-social-element>
           <!-- tiktok -->
-          <mj-social-element src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/tiktokcirclelarge0000ffffff1.png" href="https://www.tiktok.com/@extremerate">
+          <mj-social-element
+            src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/tiktokcirclelarge0000ffffff1.png"
+            href="https://www.tiktok.com/@extremerate">
           </mj-social-element>
         </mj-social>
         <mj-text align="center"> © 2025 eXtremeRate. All rights reserved.
