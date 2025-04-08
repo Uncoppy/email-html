@@ -108,12 +108,11 @@
           <mj-image padding="8px" fluid-on-mobile="true" border-radius="10px" href="https://extremerate.com/collections/replacement-top-bottom-decorative-trim-shell-compatible-with-ps5-edge-controller" src="https://files.catbox.moe/u60lhm.jpg" alt="product 1" />
         </mj-column>
         <mj-column width="50%" vertical-align="middle">
-          <mj-text padding="10px 10px 0 0" mj-class="card">
+          <mj-text padding="10px 10px 0 10px" mj-class="card">
             <div class="product-name">Dualsense Edge Custom Panel </div>
             <ul>
               <li>No rubber peeling issue</li>
               <li>Different color to match the style</li>
-
               <li>Easy installation </li>
             </ul>
           </mj-text>
@@ -132,7 +131,7 @@
           <mj-image padding="5px" fluid-on-mobile="true" href="https://extremerate.com/products/extremerate-back-paddles-replacement-switch-board-kit-for-ps5-edge-controller-custom-redesigned-lb-rb-buttons-enhancement-repair-parts-without-back-buttons" src="https://files.catbox.moe/6047iv.jpg" alt="product 2" border-radius="10px" />
         </mj-column>
         <mj-column width="50%" vertical-align="middle">
-          <mj-text padding="10px 10px 0 0" mj-class="card">
+          <mj-text padding="10px 10px 0 10px" mj-class="card">
             <div class="product-name">Dualsense Edge Rear Paddle PCB Board </div>
             <ul>
               <li>First replacement on market </li>
