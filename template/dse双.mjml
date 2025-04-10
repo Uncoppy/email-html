@@ -110,12 +110,12 @@
     <mj-wrapper padding="0px 20px 0px 20px">
       <mj-section padding="0" border-radius="8px"
         background-color="rgb(255, 255, 255)"><!--容器颜色在这里改-->
-        <mj-column width="50%" vertical-align="middle">
+        <mj-column width="45%" vertical-align="middle">
           <mj-image padding="8px" fluid-on-mobile="true" border-radius="10px"
             href="https://extremerate.com/products/extremerate-back-paddles-replacement-switch-board-kit-for-ps5-edge-controller-custom-redesigned-lb-rb-buttons-enhancement-repair-parts-without-back-buttons"
             src="https://files.catbox.moe/6047iv.jpg" alt="product 1" />
         </mj-column>
-        <mj-column width="50%" vertical-align="middle">
+        <mj-column width="55%" vertical-align="middle">
           <mj-text padding="10px 10px 0 10px" mj-class="card">
             <div class="product-name">Dualsense Edge Rear Paddle PCB Board</div>
             <ul>
@@ -134,12 +134,12 @@
       <mj-section border-radius="8px" background-color="rgb(255, 255, 255)" padding="0">
         <!--容器颜色2 在这里改-->
 
-        <mj-column width="50%" vertical-align="middle">
+        <mj-column width="45%" vertical-align="middle">
           <mj-image padding="8px" fluid-on-mobile="true"
             href="https://extremerate.com/products/extremerate-replacement-magnetic-module-kit-for-ps5-edge-controller-back-paddles"
             src="https://files.catbox.moe/mzsq7b.jpg" alt="product 2" border-radius="10px" />
         </mj-column>
-        <mj-column width="50%" vertical-align="middle">
+        <mj-column width="55%" vertical-align="middle">
           <mj-text padding="10px 10px 0 10px" mj-class="card">
             <div class="product-name">Dualsense edge magnetic module </div>
             <ul>

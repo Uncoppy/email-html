@@ -3,7 +3,7 @@
     <mj-font name="Geist" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" />
     <mj-attributes>
       <mj-class name="main" color="black" />
-      <mj-class name="card" color="rgb(17, 12, 20)" />
+      <mj-class name="card" color="rgb(32, 29, 29)" />
       <mj-all font-family="Geist,'noto sans', sans-serif" color=" rgb(27, 39, 39)" />
     </mj-attributes>
     <mj-style>
@@ -16,6 +16,7 @@
 
       li {
         margin-bottom: px;
+        font-weight: 800
       }
 
       ul {
@@ -64,22 +65,12 @@
               Cusmtom Kit</strong> for gamers to personalize or repair gaming
             devices.
           </p>
-          <p>I stumbled upon your channel and noticed you've test our products, which is impressive! I would love to explore a collaboration and create something amazing together!</p>
-          <p>Here’s a quick peek at what we offer:</p>
-          <ul>
-            <li><span class="bullet">Look Makeover: </span>Custom
-              shells, buttons, RGB for
-              personalized build.</li>
-            <li><span class="bullet">Performance
-                Upgrades: </span>Clicky buttons and remappable paddles for better play.</li>
-            <li><span class="bullet">Fix-It Kits:
-              </span>Solutions for worn-out or broken parts.</li>
-          </ul>
-          <p> For you I would recommend our cutsom kits for dualsense edge controller. You can customize it by swapping some parts and redesign it out of your imagination.🎮
+          <p>I stumbled upon your channel and was impressed by your professional repair contents. I would love to explore a collaboration and create something amazing together!</p>
+          <p> For your channel I would recommend our fix kits for dualsense back button, which is larly on-demand for the gaming community.</p>
 
-
-          <p>Please feel free to let me know if you’re interested, and I’d be delighted to discuss further details with you!🤝
+          <p> For your channel I would recommend our fix kits for dualsense back button, which is larly on-demand for the gaming community.
           </p>
+          <p> Please let me know if you’re interested, and I’d be delighted to discuss further details with you!🤝 </p>
           <p>Best regards, <br />
             Shawn
           </p>
@@ -103,47 +94,42 @@
     <!-- products -->
     <!--容器开始-->
     <mj-wrapper padding="0px 20px 0px 20px">
-      <mj-section padding="0" border-radius="8px" background-color="rgb(240, 248, 250)"><!--容器颜色在这里改-->
+      <mj-section padding="0" border-radius="8px" background-color="rgb(255, 255, 255)"><!--容器颜色在这里改-->
         <mj-column width="45%" vertical-align="middle">
-          <mj-image padding="8px" fluid-on-mobile="true" border-radius="10px" href="" src="https://files.catbox.moe/dki690.jpg" alt="product 1" />
+          <mj-image padding="8px" fluid-on-mobile="true" border-radius="10px" href="https://extremerate.com/products/extremerate-back-paddles-replacement-switch-board-kit-for-ps5-edge-controller-custom-redesigned-lb-rb-buttons-enhancement-repair-parts-without-back-buttons" src="https://files.catbox.moe/6047iv.jpg" alt="product 1" />
         </mj-column>
         <mj-column width="55%" vertical-align="middle">
           <mj-text padding="10px 10px 0 10px" mj-class="card">
-            <div class="product-name">RGB LOGO for PS5 Pro/Slim</div>
+            <div class="product-name">Dualsense Edge Rear Paddle PCB Board</div>
             <ul>
-              <li>Easy installation </li>
-              <li>Up to 40 lighting effects</li>
-              <li>Impressive RGBs </li>
+              <li>Design for lasting long</li>
+              <li>Better switch&clickness</li>
+              <li>Easy Installation </li>
             </ul>
           </mj-text>
-          <!-- icon开始 -->
 
-          <!-- icon结束 -->
         </mj-column>
       </mj-section>
       <!--容器结束-->
     </mj-wrapper>
 
     <mj-wrapper padding="10px 20px 0px 20px">
-      <mj-section border-radius="8px" background-color="rgb(240, 248, 250)" padding="0"> <!--容器颜色2 在这里改-->
+      <mj-section border-radius="8px" background-color="rgb(255, 255, 255)" padding="0">
+        <!--容器颜色2 在这里改-->
 
         <mj-column width="45%" vertical-align="middle">
-          <mj-image padding="5px" fluid-on-mobile="true" href="https://extremerate.com/products/extremerate-back-paddles-replacement-switch-board-kit-for-ps5-edge-controller-custom-redesigned-lb-rb-buttons-enhancement-repair-parts-without-back-buttons" src="https://files.catbox.moe/6047iv.jpg" alt="product 2" border-radius="10px" />
+          <mj-image padding="8px" fluid-on-mobile="true" href="https://extremerate.com/products/extremerate-replacement-magnetic-module-kit-for-ps5-edge-controller-back-paddles" src="https://files.catbox.moe/mzsq7b.jpg" alt="product 2" border-radius="10px" />
         </mj-column>
         <mj-column width="55%" vertical-align="middle">
           <mj-text padding="10px 10px 0 10px" mj-class="card">
-            <div class="product-name">Dualsense Edge Rear Paddle PCB Board </div>
+            <div class="product-name">Dualsense edge magnetic module </div>
             <ul>
-              <li>First replacement on market </li>
-              <li>Design for lasting long</li>
-              <li>Better switch&clickness</li>
-
-              <li>Easy Installation </li>
+              <li>Premuim material and quality </li>
+              <li>Highly durable and solid </li>
+              <li>Easy installation</li>
             </ul>
 
           </mj-text>
-
-        </mj-column>
 
       </mj-section>
     </mj-wrapper>
@@ -170,7 +156,7 @@
           <mj-social-element src="https://eurrdgq.stripocdn.email/content/guids/CABINET_fa7274f1547f13b240d1b25c2f4d07bf5dfe392d06444b19f08f3a0ea5844659/images/tiktokcirclelarge0000ffffff1.png" href="https://www.tiktok.com/@extremerate">
           </mj-social-element>
         </mj-social>
-        <mj-text align="center"> © 2025 eXtremeRate. All rights reserved.
+        <mj-text align="center" font-weight="400" color="rgb(80, 73, 73)"> © 2025 eXtremeRate. All rights reserved.
         </mj-text>
       </mj-column>
     </mj-section>
